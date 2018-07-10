@@ -1,0 +1,4 @@
+<import src="./../template/progress/progress.wxml"/>
+<import src="./../template/shopInfo/shopInfo.wxml"/>
+<!-- <template is="progress"></template> -->
+<template is="shopInfo"></template>

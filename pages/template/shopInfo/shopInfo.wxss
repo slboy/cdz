@@ -1,0 +1,26 @@
+.inputGroup{
+  border-bottom: 1rpx solid #C9C9C9;
+  height: 86rpx;
+  padding: 24rpx 0;
+}
+.inputLeft{
+  float: left;
+  width: 244rpx;
+  font-size: 28rpx;
+  color: #000000;
+  letter-spacing: 1.31rpx;
+  line-height: 40rpx;
+}
+.inputLeft text{
+  color: #FF383D;
+}
+.inputBox{
+  margin-left: 244rpx;
+  font-size: 28rpx;
+  color: #9B9B9B;
+  height: 40rpx;
+}
+.inputGroup input{
+  line-height: 40rpx;
+  height: 40rpx;
+}

@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/shop/shop",
+    "pages/info/info",
+    "pages/data/data",
+    "pages/need/need",
+    "pages/pic/pic",
+    "pages/end/end"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#0A44FF",
+    "navigationBarTitleText": "车店长",
+    "navigationBarTextStyle":"#fff"
+  }
+}

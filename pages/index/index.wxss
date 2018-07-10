@@ -1,0 +1,3 @@
+/**index.wxss**/
+@import "./../template/progress/progress.wxss";
+@import "./../template/shopInfo/shopInfo.wxss";

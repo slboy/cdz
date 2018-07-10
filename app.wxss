@@ -1,0 +1,7 @@
+/**app.wxss**/
+.container {
+  width: 94%;
+  margin: 0 auto; 
+}
+view,input{box-sizing: border-box;}
+input{min-height: inherit;}

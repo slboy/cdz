@@ -1,0 +1,22 @@
+.progress{
+  color: red;
+  text-align: center;
+  font-size: 0;
+}
+.progress .item{
+  display: inline-block;
+  width: 141rpx;
+  font-size: 22rpx;
+  color: #4F4F4F;
+}
+.itemText{
+  padding-top: 17rpx;
+  line-height: 30rpx;
+  margin-bottom: 10rpx;
+}
+.itemPro{
+  /* background: #4A90E2; */
+  height: 14rpx;
+  border-radius: 100px;
+  border: 1rpx solid #979797;
+}

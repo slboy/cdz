@@ -1,0 +1,25 @@
+<!--注册进度条  -->
+<template name="progress">
+  <view class='progress'>
+    <view class='item'>
+      <view class='itemText'>门店信息</view>
+      <view class='itemPro'></view>
+    </view>
+    <view class='item'>
+      <view class='itemText'>数据上传</view>
+      <view class='itemPro'></view>
+    </view>
+    <view class='item'>
+      <view class='itemText'>系统使用需求</view>
+      <view class='itemPro'></view>
+    </view>
+    <view class='item'>
+      <view class='itemText'>资质上传</view>
+      <view class='itemPro'></view>
+    </view>
+    <view class='item'>
+      <view class='itemText'>快递信息</view>
+      <view class='itemPro'></view>
+    </view>
+  </view>
+</template>

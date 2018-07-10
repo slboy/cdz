@@ -1,0 +1,60 @@
+<template name='shopInfo'>
+  <view class='shopInfo container'>
+    <form bindsubmit="formSubmit">
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>企业全称</view>
+        <view class='inputBox'>
+          <input name="qyName" placeholder='企业名称需和营业执照上一致'></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>所在地区</view>
+        <view class='inputBox'>
+          <input name="qyAdress" placeholder=''></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>详细地址</view>
+        <view class='inputBox'>
+          <input name="xxAdress" placeholder='填写到街道、门牌号'></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>门店名称</view>
+        <view class='inputBox'>
+          <input name="shopName" placeholder=''></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>老板姓名</view>
+        <view class='inputBox'>
+          <input name="bossName" placeholder=''></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>老板手机</view>
+        <view class='inputBox'>
+          <input name="bossTel" placeholder='' maxlength="11" type='number'></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>老板邮箱</view>
+        <view class='inputBox'>
+          <input name="bossEmail" placeholder=''></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>软件对接人姓名</view>
+        <view class='inputBox'>
+          <input name="userName" placeholder=''></input>
+        </view>
+      </view>
+      <view class='inputGroup'>
+        <view class='inputLeft'><text>*</text>软件对接人手机</view>
+        <view class='inputBox'>
+          <input name="userTel" placeholder='' maxlength="11" type='number'></input>
+        </view>
+      </view>
+    </form>
+  </view>
+</template>
